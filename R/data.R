@@ -1,0 +1,62 @@
+#' Hitters
+#'
+#' Major League Baseball Data from the 1986 and 1987 seasons.
+#'
+#' @name Hitters
+#' @format A data frame with 322 observations of major league players
+#' on the following 20 variables with explanations.
+#' \tabular{lll}{
+#'   \code{AtBat} \tab \tab Number of times at bat in 1986\cr
+#'   \tab \cr
+#'   \code{Hits} \tab \tab Number of hits in 1986\cr
+#'   \tab \cr
+#'   \code{HmRun} \tab \tab Number of home runs in 1986\cr
+#'   \tab \cr
+#'   \code{Runs} \tab \tab Number of runs in 1986\cr
+#'   \tab \cr
+#'   \code{RBI} \tab \tab Number of runs batted in 1986\cr
+#'   \tab \cr
+#'   \code{Walks} \tab \tab Number of walks in 1986\cr
+#'   \tab \cr
+#'   \code{Years} \tab \tab Number of years in the major leagues\cr
+#'   \tab \cr
+#'   \code{CAtBat} \tab \tab Number of times at bat during his career\cr
+#'   \tab \cr
+#'   \code{CHits} \tab \tab Number of hits during his career\cr
+#'   \tab \cr
+#'   \code{CHmRun} \tab \tab Number of home runs during his career\cr
+#'   \tab \cr
+#'   \code{CRuns} \tab \tab Number of runs during his career\cr
+#'   \tab \cr
+#'   \code{CRBI} \tab \tab Number of runs batted in during his career\cr
+#'   \tab \cr
+#'   \code{CWalks} \tab \tab Number of walks during his career\cr
+#'   \tab \cr
+#'   \code{League} \tab \tab A factor with levels A and N indicating player's league at the end of 1986\cr
+#'   \tab \cr
+#'   \code{Division} \tab \tab A factor with levels E and W indicating player's division at the end of 1986\cr
+#'   \tab \cr
+#'   \code{PutOuts} \tab \tab Number of put outs in 1986\cr
+#'   \tab \cr
+#'   \code{Assists} \tab \tab Number of assists in 1986\cr
+#'   \tab \cr
+#'   \code{Errors} \tab \tab Number of errors in 1986\cr
+#'   \tab \cr
+#'   \code{Salary} \tab \tab 1987 annual salary on opening day in thousands of dollars\cr
+#'   \tab \cr
+#'   \code{NewLeague} \tab \tab A factor with levels A and N indicating player's league at the beginning of 1987\cr
+#'   \tab \cr
+#' }
+#' @source The dataset was retrieved from the StatLib library maintained at
+#' Carnegie Mellon University. This is part of the data used in the 1988
+#' ASA Graphics Section Poster Session. The dataset is available in the R package
+#' ISLR2 (James et al., 2022). For more details, see the book,
+#' *An Introduction to Statistical Learning with applications in R*
+#' by James et al. (2013).
+#' @references James, G., Witten, D., Hastie, T., and Tibshirani, R. (2013).
+#' An Introduction to Statistical Learning with applications in R,
+#' \url{https://www.statlearning.com}, *Springer-Verlag*, New York.
+#'
+#' James G, Witten D, Hastie T, Tibshirani R (2022). *ISLR2: Introduction to Statistical Learning, Second Edition*.
+#' R package version 1.3-2, \url{https://CRAN.R-project.org/package=ISLR2}.
+NULL
